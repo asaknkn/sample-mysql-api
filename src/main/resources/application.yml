@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/sample_db
+    username: root
+    password: xxxxxxxxxx
+
+mybatis:
+  mapperLocations: classpath*:/mapper/*.xml  # (3)
+  configuration:
+    mapUnderscoreToCamelCase: true  # (4)
